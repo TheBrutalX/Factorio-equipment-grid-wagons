@@ -1,0 +1,2 @@
+local settings_changed = require("migrations.settings.settings-migrations");
+table.insert(settings_changed, { old = "tbx-enable-wagon-equipment-grid", new = "tbx-enable-cargo-wagon-equipment-grid", v = "0.1.0" })
