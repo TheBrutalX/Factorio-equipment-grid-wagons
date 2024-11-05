@@ -34,8 +34,3 @@ end
 for _, wagon in pairs(data.raw["locomotive"]) do
   wagon.equipment_grid = "wagon-equipment-grid"
 end
-
--- Add inventory to artillery wagon
-for _, wagon in pairs(data.raw["artillery-wagon"]) do
-  wagon.inventory_size = 20
-end
