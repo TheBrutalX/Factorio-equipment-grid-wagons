@@ -19,3 +19,18 @@ data:extend({wagon_grid})
 for _, wagon in pairs(data.raw["cargo-wagon"]) do
   wagon.equipment_grid = "wagon-equipment-grid"
 end
+
+-- Add the grid to all fluid wagons
+for _, wagon in pairs(data.raw["fluid-wagon"]) do
+  wagon.equipment_grid = "wagon-equipment-grid"
+end
+
+-- Add the grid to all artillery wagons
+for _, wagon in pairs(data.raw["artillery-wagon"]) do
+  wagon.equipment_grid = "wagon-equipment-grid"
+end
+
+-- Add the grid to all locomotives
+for _, wagon in pairs(data.raw["locomotive"]) do
+  wagon.equipment_grid = "wagon-equipment-grid"
+end
