@@ -1,11 +1,7 @@
 data:extend({
-  {
-    type = "bool-setting",
-    name = "tbx-enable-wagon-equipment-grid",
-    setting_type = "startup",
-    default_value = true,
-    order = "a"
-  },
+  { type = "bool-setting", name = "tbx-enable-cargo-wagon-equipment-grid", setting_type = "startup", default_value = true, order = "a" },
+  { type = "bool-setting", name = "tbx-enable-fluid-wagon-equipment-grid", setting_type = "startup", default_value = true, order = "a" },
+  { type = "bool-setting", name = "tbx-enable-artillery-wagon-equipment-grid", setting_type = "startup", default_value = true, order = "a" },
   {
     type = "int-setting",
     name = "tbx-equipment-grid-width",
