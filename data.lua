@@ -21,7 +21,10 @@ end
 
 function add_equipment_grid_to_entities(entity, settings)
   local settings_name = "tbx-enable-" .. entity .. "-equipment-grid"
-  
+  if entity == "artillery-wagon" then
+    -- Disable after user feedback
+    return
+  end
   if settings.startup[settings_name].value == false then
     return
   end
